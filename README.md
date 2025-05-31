@@ -84,7 +84,3 @@ A maneira mais fácil de fazer deploy do seu app Next.js é usando a [Vercel](ht
 ---
 
 Desenvolvido com 💙 por [samuca]
-```
-
-
-Código semelhante encontrado com 1 tipo de licença
