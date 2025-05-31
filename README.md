@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ECN - Controle Financeiro
 
-## Getting Started
+Este é um projeto desenvolvido em [Next.js](https://nextjs.org) para controle financeiro pessoal, utilizando React, Typescript e integração com API Laravel.
 
-First, run the development server:
+## 🚀 Começando
+
+Para rodar o projeto em ambiente de desenvolvimento, utilize um dos comandos abaixo:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
+bun dev
+
+```markdown
+# ECN - Controle Financeiro
+
+Este é um projeto desenvolvido em [Next.js](https://nextjs.org) para controle financeiro pessoal, utilizando React, Typescript e integração com API Laravel.
+
+## 🚀 Começando
+
+Para rodar o projeto em ambiente de desenvolvimento, utilize um dos comandos abaixo:
+
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm dev
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a aplicação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Cadastro e autenticação de usuários
+- Cadastro de receitas e despesas
+- Visualização de saldo, receitas, despesas fixas e variáveis
+- Gráficos interativos para análise financeira
+- Filtros por data e categoria
+- Interface responsiva e moderna
 
-## Learn More
+## 🛠️ Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [date-fns](https://date-fns.org/)
+- Integração com API Laravel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Estrutura do Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/app` - Páginas e rotas da aplicação
+- `src/components` - Componentes reutilizáveis (UI, Sidebar, Header, Cards, etc)
+- `src/types` - Tipos e interfaces TypeScript
+- `src/api` - Funções para comunicação com a API
+- `public` - Arquivos estáticos
 
-## Deploy on Vercel
+## 📝 Como contribuir
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nome-da-feature`)
+3. Commit suas alterações (`git commit -m 'feat: minha nova feature'`)
+4. Faça push para a branch (`git push origin feature/nome-da-feature`)
+5. Abra um Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📚 Saiba mais
+
+- [Documentação do Next.js](https://nextjs.org/docs)
+- [Documentação do React](https://react.dev/)
+- [Documentação do Tailwind CSS](https://tailwindcss.com/docs)
+
+## 📦 Deploy
+
+A maneira mais fácil de fazer deploy do seu app Next.js é usando a [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+---
+
+Desenvolvido com 💙 por [samuca]
+```
+
+
+Código semelhante encontrado com 1 tipo de licença
