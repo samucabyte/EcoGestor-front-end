@@ -1,86 +1,51 @@
-# ECN - Controle Financeiro
+# 💻 ecoGesto - Sistema de Controle Financeiro (Front-End)
 
-Este é um projeto desenvolvido em [Next.js](https://nextjs.org) para controle financeiro pessoal, utilizando React, Typescript e integração com API Laravel.
+Este é o front-end do sistema **ecoGesto**, uma aplicação voltada para o controle de finanças pessoais. Permite que cada usuário registre suas entradas e saídas financeiras e acompanhe o saldo do mês.
 
-## 🚀 Começando
+## 📋 Recursos
 
-Para rodar o projeto em ambiente de desenvolvimento, utilize um dos comandos abaixo:
+- Interface para cadastro de **despesas**, **receitas** e **usuários**
+- Exibição do **saldo mensal** (positivo ou negativo)
+- Organização dos dados por **mês e ano**
+- Conexão com o back-end em PHP
+- Layout simples, limpo e funcional
 
+## 🖼️ Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript (vanilla)
+
+## 📦 Status do Projeto
+
+🚧 Em desenvolvimento
+
+## 🧪 Como usar
+
+1. Clone este repositório:
 ```bash
-npm run dev
-# ou
-yarn dev
-# ou
-pnpm dev
-# ou
-bun dev
+git clone https://github.com/samucabyte/ECN-front-end.git
 
-```markdown
-# ECN - Controle Financeiro
+Abra o arquivo index.html no navegador
 
-Este é um projeto desenvolvido em [Next.js](https://nextjs.org) para controle financeiro pessoal, utilizando React, Typescript e integração com API Laravel.
+Garanta que o ECN-backAnd está rodando corretamente
 
-## 🚀 Começando
+🛠️ Melhorias futuras
+Dashboard com gráficos e relatórios
 
-Para rodar o projeto em ambiente de desenvolvimento, utilize um dos comandos abaixo:
+Exportar dados em PDF ou Excel
 
-```bash
-npm run dev
-# ou
-yarn dev
-# ou
-pnpm dev
-# ou
-bun dev
-```
+Validação de campos mais robusta
 
-Acesse [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a aplicação.
+Responsividade completa para dispositivos móveis
 
-## ✨ Funcionalidades
+Conexão com API REST (em JSON)
 
-- Cadastro e autenticação de usuários
-- Cadastro de receitas e despesas
-- Visualização de saldo, receitas, despesas fixas e variáveis
-- Gráficos interativos para análise financeira
-- Filtros por data e categoria
-- Interface responsiva e moderna
+📌 Objetivo do Projeto
+Ajudar pessoas a visualizarem melhor sua saúde financeira, com um sistema simples e direto. Ideal para quem deseja organizar as finanças mensais e entender se está gastando mais do que ganha.
 
-## 🛠️ Tecnologias Utilizadas
+🧠 Autor
+Desenvolvido por Samuel Silva
+📩 Contato: samucabyte@gmail.com
 
-- [Next.js](https://nextjs.org/)
-- [React](https://react.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Lucide Icons](https://lucide.dev/)
-- [date-fns](https://date-fns.org/)
-- Integração com API Laravel
 
-## 📁 Estrutura do Projeto
-
-- `src/app` - Páginas e rotas da aplicação
-- `src/components` - Componentes reutilizáveis (UI, Sidebar, Header, Cards, etc)
-- `src/types` - Tipos e interfaces TypeScript
-- `src/api` - Funções para comunicação com a API
-- `public` - Arquivos estáticos
-
-## 📝 Como contribuir
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nome-da-feature`)
-3. Commit suas alterações (`git commit -m 'feat: minha nova feature'`)
-4. Faça push para a branch (`git push origin feature/nome-da-feature`)
-5. Abra um Pull Request
-
-## 📚 Saiba mais
-
-- [Documentação do Next.js](https://nextjs.org/docs)
-- [Documentação do React](https://react.dev/)
-- [Documentação do Tailwind CSS](https://tailwindcss.com/docs)
-
-## 📦 Deploy
-
-A maneira mais fácil de fazer deploy do seu app Next.js é usando a [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
----
-
-Desenvolvido com 💙 por [samuca]
